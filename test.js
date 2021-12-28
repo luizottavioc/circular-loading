@@ -25,8 +25,5 @@ function animation(porc) {
         var v5 = 25 + ((porc-90)*2.5);
         $('span.fifth').css('width', v5+'%');
     }
-    // $('span.second').css('height', '100%');
-    // $('span.third').css('width', '100%');
-    // $('span.fourth').css('height', '100%');
-    // $('span.fifth').css('width', '50%');
+    $('.b').html(porc+"%");
 }
