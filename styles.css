@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(43,43,43);
+}
+
+.a {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 15px white; */
+    background: transparent;
+}
+
+.first {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 75px;
+    width: 0%;
+    background: white;
+    transition: 1s;
+}
+
+.second {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 75px;
+    height: 0%;
+    background: white;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.third {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 75px;
+    width: 0%;
+    background: white;
+    transition: 1s;
+    transition-delay: 0.57s;
+}
+
+.fourth {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 75px;
+    height: 0%;
+    background: white;
+    transition: 1s;
+    transition-delay: .9s;
+}
+
+.fifth {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 75px;
+    width: 0%;
+    background: white;
+    transition: 1s;
+    transition-delay: 1.2s;
+}
+
+.b {
+    position: absolute;
+    height: calc(100% - 50px);
+    width: calc(100% - 50px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: rgb(43,43,43);
+}
